@@ -1,8 +1,25 @@
 aid: sunshine-lake-pharma
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sunshine-lake-pharma.png
 name: Sunshine Lake Pharma
-description: 'Sunshine Lake Pharma is a company surfaced as a portfolio company of idg-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Sunshine Lake Pharma (Guangdong East Sunshine Pharmaceutical Co., Ltd.,
+  also known as HEC Pharm) is a Chinese pharmaceutical company established in 2003 and
+  part of the Dongyangguang (HEC) Group. It engages in drug research, development, production,
+  and commercialization across innovative drugs, improved formulations, generics, and
+  biosimilars, focused on infections, chronic diseases, and oncology. Notable products
+  include oseltamivir phosphate (influenza), sofosbuvir-based hepatitis C therapy, and
+  insulin glargine (diabetes). It is a manufacturer with no public developer or API surface.
+  Surfaced as a portfolio company of idg-capital and added to the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/sunshine-lake-pharma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Pharmaceuticals
+- Biotechnology
+- Life Sciences
+- Drug Manufacturing
+- China
 apis: []
+common:
+- type: Website
+  url: https://www.hecpharm.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
